@@ -1,5 +1,3 @@
 #!/bin/bash
 alias ls='rm *'
-source ./0-alias   # Activates the alias in the current shell
-ls                 # This will remove all files in the current directory
-\ls                # Bypasses the alias, runs the original ls command
+source ./0-alias
